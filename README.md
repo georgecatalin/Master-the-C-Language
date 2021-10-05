@@ -4,6 +4,9 @@ Code work associated with the course "Master the C Language" authored by Jason F
 ## Course URL
 https://www.udemy.com/course/c-programming-for-beginners-/
 
+### Skill level
+Skill level: All Levels
+
 ### Note
 If you have previously used the C programming language, then this course will deepen your understanding of it. If you have never used it, no problem, you will see that it can help you become a more efficient C developer.
 
