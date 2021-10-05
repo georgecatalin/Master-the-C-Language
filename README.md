@@ -12,3 +12,4 @@ If you have previously used the C programming language, then this course will de
 
 This course does not skip on the details.  You will learn how to write high quality code and become an excellent problem solver.  This course does not just present how to code in the C programming language, but, also includes all the details on "why" you are doing the things you are doing.  At the end of this course, you will fully understand the concepts of the C Programming language.
 
+![Landing](screenshot.png) 
