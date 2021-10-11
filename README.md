@@ -2,7 +2,7 @@
 Code work associated with the course "Master the C Language" authored by Jason Fedin, Tim Buchalka's Learn Programming Academy on Udemy.
 
 ## Personal note
-I have chosen to follow along this course due to the fact it presents lots of best practices. It is abundant in offering good tips even for a seasoned programmer.
+I have chosen to follow along this course due to the fact it presents lots of **best practices**. It is abundant in offering good tips even for a seasoned programmer.
 
 ## Course URL
 https://www.udemy.com/course/c-programming-for-beginners-/
