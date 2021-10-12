@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1634046046 source:/home/georgeca/Workspaces/Master-the-C-Language/Operators/Display the sizes of data types in C/UsingTheSizeOfOperator/main.c
+	<stdio.h>
+	<stdlib.h>
+
