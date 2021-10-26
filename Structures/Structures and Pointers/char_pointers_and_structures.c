@@ -17,22 +17,31 @@ int main(void)
     gets(temp);
 
 
-    struct completeName *thisName;
+    struct completeName thisName, *pThisName; //Good Practice: One can not declare a pointer to a structure object if that structure object is not itself already defined;
 
-    printf("ddadad %d...",sizeof(thisName->firstName));
+    pThisName=&thisName;
 
-    thisName->firstName=(char *) malloc(sizeof(char)*(strlen(temp)+1));
-    strcpy(thisName->firstName,temp);
+
+    thisName.firstName=(char *) malloc(sizeof(char)*(strlen(temp)+1));
+    pThisName->firstName=(char *) malloc(sizeof(char)* (strlen(temp)+1));
+
+    strcpy(thisName.firstName,temp);
+    strcpy(pThisName->firstName, temp);
 
     printf("Enter your second name, please: \n");
     gets(temp);
 
-    thisName->lastName=(char *) malloc((strlen(temp)+1)*sizeof(char));
-    strcpy(thisName->lastName,temp);
+    thisName.lastName=(char *) malloc((strlen(temp)+1)*sizeof(char));
+    pThisName->lastName=(char *) malloc(sizeof(char)*(strlen(temp)+1));
 
-    puts("");
-    printf("Your name is : %s - %s", thisName->firstName, thisName->lastName);
+    strcpy(thisName.lastName,temp);
+    strcpy(pThisName->lastName,temp);
 
+    puts("====== Via structure object direct member ========");
+    printf("Your name is : %s - %s \n", thisName.firstName, thisName.lastName);
+
+    puts("====== Via pointer to structure object indirect member ========");
+    printf("Your name is : %s - %s \n", pThisName->firstName,pThisName->lastName);
 
     return 0;
 }
